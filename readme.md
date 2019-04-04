@@ -1,28 +1,48 @@
-# Gentardator
+__Work in progress, use at your own discretion__
+
+# Genyaj
 
 Helps perform asynchronous tasks on regular interval using javascript generators and recursion.
 
-## Usage
-```
-npm i gentardator
+## Installation
+
+```bash
+npm i genyaj
 ```
 
 ```javascript
-import { Generate } from 'gentardator'
+import { Generate } from 'genyaj'
 
 Generate({
-  task: () => console.log('updated'), // @function @required runs every _interval_
-  stop: () => stop, // @function @optional stop generator when evaluates to true
-  interval: 1000 // @number @required time between _task_ execution (ms)
+    /*
+    @required
+    @function
+    Runs every _interval_
+    */
+    task: () => console.log('updated'),
+    /*
+    @optional
+    @function
+    Stop generator when evaluates to true
+    */
+    stop: () => stop,
+    /*
+    @optional
+    @number
+    @default 0
+    Time (ms) between each _task_ execution
+    If none, _task_s will run consecutively
+    */
+    interval: 1000
 })
 ```
 
-## Example: with React Hooks
+## Example with React Hooks
 
 ```javascript
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import { Generate } from 'gentardator'
+import { Generate } from 'genyaj'
 
 const ItemDisplay = () => {
     const [items, setItems] = useState([])

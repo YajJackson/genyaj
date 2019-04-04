@@ -1,4 +1,4 @@
-export const Generate = ({ task, stop, interval }) => {
+export const Generate = ({ task, stop, interval = 0 }) => {
     /*
     @task function to be ran
     @stop if true, stop the generator
