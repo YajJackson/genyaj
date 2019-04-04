@@ -1,0 +1,15 @@
+{
+  "name": "gentardator",
+  "version": "0.0.2",
+  "description": "Helps perform tasks using async recursion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "loops",
+    "async"
+  ],
+  "author": "Yajjackson",
+  "license": "MIT"
+}
