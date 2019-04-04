@@ -1,6 +1,6 @@
 {
   "name": "genyaj",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Helps perform tasks using async recursion",
   "repository": {
     "type" : "git",

@@ -1,4 +1,4 @@
-__Work in progress, use at your own discretion__
+__Work in progress__
 
 # Genyaj
 
