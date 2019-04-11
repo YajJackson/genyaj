@@ -1,6 +1,6 @@
 {
   "name": "genyaj",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Helps perform tasks using async recursion",
   "repository": {
     "type" : "git",
@@ -9,7 +9,11 @@
   "main": "index.js",
   "keywords": [
     "loops",
-    "async"
+    "async",
+    "asynchronous",
+    "setInterval",
+    "setTimeout",
+    "concurrency"
   ],
   "author": "Yajjackson",
   "license": "MIT"
