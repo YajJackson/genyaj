@@ -2,7 +2,7 @@ __Work in progress__
 
 # Genyaj
 
-Helps perform asynchronous tasks on regular interval using javascript generators and recursion.
+Helps perform asynchronous tasks on regular interval using generators.
 
 ## Installation
 
